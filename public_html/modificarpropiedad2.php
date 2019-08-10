@@ -1,0 +1,32 @@
+<?php
+include ('inc/abreconexion.php');
+$id=$_POST['id'];
+$iddepartamento=$_POST['iddepartamento'];
+$matricula=$_POST['matricula'];
+$submatricula=$_POST['submatricula'];
+$idlocalidad=$_POST['idlocalidad'];
+$idzona=$_POST['idzona'];
+$ncatastral=$_POST['ncatastral'];
+$pinmobiliaria=$_POST['pinmobiliaria'];
+$calle=$_POST['calle'];
+$nrocalle=$_POST['nrocalle'];
+$lote=$_POST['lote'];
+$manzana=$_POST['manzana'];
+$superficie=$_POST['superficie'];
+$nroplano=$_POST['nroplano'];
+$anioplano=$_POST['anioplano'];
+$ecalles=$_POST['ecalles'];
+$arranque=$_POST['arranque'];
+$rumbos=$_POST['rumbos'];
+$unidad=$_POST['unidad'];
+$parcela=$_POST['parcela'];
+$supexclu=$_POST['supexclu'];
+$supcomun=$_POST['supcomun'];
+$valorpro=$_POST['valorpro'];
+$planta=$_POST['planta'];
+$destino=$_POST['destino'];
+$sql="UPDATE propiedades SET iddepartamento='$iddepartamento',matricula='$matricula',submatricula=NULLIF('$submatricula',''),idlocalidad='$idlocalidad',idzona='$idzona',ncatastral='$ncatastral',pinmobiliaria='$pinmobiliaria',calle='$calle',nrocalle='$nrocalle',lote='$lote',manzana='$manzana',superficie='$superficie',nroplano='$nroplano',anioplano='$anioplano',ecalles='$ecalles',arranque='$arranque',rumbos='$rumbos',unidad='$unidad',parcela='$parcela',supexclu=NULLIF('$supexclu',''),supcomun=NULLIF('$supcomun',''),valorpro=NULLIF('$valorpro',''),planta='$planta',destino='$destino' WHERE id='$id'";
+mysqli_query($conn,$sql) or die(mysqli_error($conn));
+mysqli_close($conn);
+header("Location: abmpropiedades.php");
+?>
