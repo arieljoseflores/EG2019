@@ -1,0 +1,87 @@
+body {
+	padding-top: 0px; padding-bottom: 40px; background-color: rgb(200, 200, 250);
+}
+.form-signin {
+	margin: 40px auto; padding: 15px; max-width: 400px;
+}
+.form-signin .form-signin-heading {
+	margin-bottom: 10px;
+}
+.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+.form-signin .checkbox {
+	font-weight: normal;
+}
+.form-signin .form-control {
+	padding: 10px; height: auto; font-size: 16px; position: relative; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+.form-signin input[type='email'] {
+	margin-bottom: -1px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;
+}
+.form-signin input[type='password'] {
+	margin-bottom: 10px; border-top-left-radius: 0px; border-top-right-radius: 0px;
+}
+.form-busqueda {
+	margin: 40px auto; padding: 15px; max-width: 400px;
+}
+.form-busqueda label {
+	margin-bottom: 0px;
+}
+.form-busqueda .form-group {
+	margin-bottom: 8px;
+}
+.form-busqueda .form-signin-heading {
+	margin-bottom: 10px;
+}
+.form-busqueda .checkbox {
+	margin-bottom: 10px;
+}
+.form-busqueda .checkbox {
+	font-weight: normal;
+}
+.form-busqueda .form-control:focus {
+	z-index: 2;
+}
+.form-busqueda input[type='email'] {
+	margin-bottom: -1px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;
+}
+.form-busqueda input[type='password'] {
+	margin-bottom: 10px; border-top-left-radius: 0px; border-top-right-radius: 0px;
+}
+.form-input {
+	margin: 15px auto; padding: 15px; max-width: 600px;
+}
+.form-input label {
+	margin-bottom: 0px;
+}
+.form-input .form-group {
+	margin-bottom: 8px;
+}
+.form-input .form-signin-heading {
+	margin-bottom: 10px;
+}
+.form-input .checkbox {
+	margin-bottom: 10px;
+}
+.form-input .checkbox {
+	font-weight: normal;
+}
+.form-input .form-control:focus {
+	z-index: 2;
+}
+.form-input input[type='email'] {
+	margin-bottom: -1px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;
+}
+.form-input input[type='password'] {
+	margin-bottom: 10px; border-top-left-radius: 0px; border-top-right-radius: 0px;
+}
+.form-consulta {
+	margin: 15px; padding: 15px; max-width: 600px;
+}
+.form-consulta .form-group {
+	margin-bottom: 8px;
+}
